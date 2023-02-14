@@ -1,0 +1,15 @@
+#ObjectArea{
+    width: 800px;
+    height: 515px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#obj {
+    padding-top: 30px;
+    border: 1px solid black;
+    width: 80%;
+    height: 60%;
+}

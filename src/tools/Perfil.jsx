@@ -1,3 +1,5 @@
+import '../styles/perfil.css'
+
 function Perfil() {
     return (
         <div id="perfilBox">
