@@ -1,0 +1,44 @@
+header {
+    background-color: #1E385B;
+    /*cor de fundo azul escuro*/
+    color: #FFFFFF;
+    /*cor do texto branca*/
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+#title {
+    padding: 5px;
+    padding-left: 10px;
+    flex-direction: column;
+    line-height: 10px;
+}
+
+#title>h1 {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+#haku>img {
+    padding: 5px;
+    height: 60px;
+    transform: scaleX(-1);
+}
+
+li {
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #00C957;
+    transition: 0.3s all;
+}
