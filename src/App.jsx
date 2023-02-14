@@ -3,6 +3,7 @@ import Header from './tools/header'
 import Perfil from './tools/Perfil'
 import ObjectArea from './tools/ObjectArea'
 import TimeLine from './tools/TimeLine'
+import Footer1 from './tools/Footer'
 
 function App() {
 
@@ -14,9 +15,7 @@ function App() {
             <ObjectArea />
             <TimeLine />
         </div>
-        <footer>
-            <p>Haku Interprise</p>
-        </footer>
+        <Footer1 />
     </main>
   )
 }

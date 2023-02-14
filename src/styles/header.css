@@ -1,5 +1,5 @@
 header {
-    background-color: #1E385B;
+    background-color: #7a8b9b;
     /*cor de fundo azul escuro*/
     color: #FFFFFF;
     /*cor do texto branca*/
@@ -23,6 +23,7 @@ header {
 }
 
 #haku>img {
+    margin-left: 30%;
     padding: 5px;
     height: 60px;
     transform: scaleX(-1);

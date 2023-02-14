@@ -1,0 +1,36 @@
+footer {
+    background-color: #1E385B;
+    color: #FFFFFF;
+    padding: 0px 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+  
+  .social-media {
+    list-style: none;
+    display: flex;
+    /* justify-content: flex-end; */
+  }
+  
+  .social-media li {
+    margin-left: 50px;
+  }
+  
+  .social-media a {
+    color: #FFFFFF;
+    font-size: 10px;
+  }

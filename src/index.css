@@ -1,12 +1,25 @@
   body {
-    margin: 0;
-    padding: 0;
-    background-color: #fff; /*cor de fundo branca*/
-    color: #000000;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      /*cor de fundo branca*/
+      color: #000000;
   }
+
   main {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 15px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #mainBox {
+      display: flex;
+      flex-direction: row;
+      margin-top: 5px;
+      justify-content: center;
   }
