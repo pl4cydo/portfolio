@@ -1,5 +1,5 @@
 header {
-    background-color: #7a8b9b;
+    background-color: #50779c;
     /*cor de fundo azul escuro*/
     color: #FFFFFF;
     /*cor do texto branca*/
@@ -11,26 +11,26 @@ header {
 }
 
 #title {
-    padding: 5px;
+    padding: 0;
     padding-left: 10px;
     flex-direction: column;
     line-height: 10px;
 }
 
 #title>h1 {
-    font-size: 25px;
+    font-size: 20px;
     color: #FFFFFF;
 }
 
 #haku>img {
     margin-left: 30%;
-    padding: 5px;
+    padding: 0px;
     height: 60px;
     transform: scaleX(-1);
 }
 
 li {
-    padding: 5px;
+    padding-right: 5px;
     display: inline-block;
     margin: 5px;
 }
