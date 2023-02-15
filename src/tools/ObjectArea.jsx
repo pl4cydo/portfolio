@@ -1,15 +1,9 @@
 import '../styles/objectArea.css'
-import {pro1, pro2} from '../model/Projeto'
+import {arrPro} from '../model/Projeto'
 import { useState } from 'react';
 
-const arrPro = [pro1, pro2];
-
-function soma(n) {
-    n = n + 1
-}
-
 function ObjectArea() {
-    let num = 0;
+    let num = 3;
     
     const [object, setObject] = useState(arrPro[num]);
 
@@ -17,17 +11,15 @@ function ObjectArea() {
         <div id="ObjectArea">
             <div id="tituloObj">
                 <h1>Projetos</h1>
-                <button onClick={() => {
-                    num = num + 1
-                    setObject(arrPro[num])
-                    }}></button>
-                <p>{num}</p>
             </div>
             <div id="obj">
-                <h2>{object.titulo}</h2>
-                <p>{object.texto}</p>
+                <div id="objEsquerda">
+                    <h2>{object.titulo}</h2>
+                    <p>{object.texto}</p>
+                    <p>{object.date}</p>
+                    <a href={object.link} target="_blank">link</a>
+                </div>  
                 <img src={object.imagem} alt={object.titulo} />
-                <a href={object.link}>link</a>
             </div>
         </div>
     )

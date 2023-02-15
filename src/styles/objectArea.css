@@ -1,10 +1,11 @@
 #ObjectArea{
     width: 800px;
-    height: 515px;
+    height: 514px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 #obj {
@@ -13,9 +14,22 @@
     width: 80%;
     height: 60%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-a{
+#obj > img{
+    /* width: 250px; */
+    height: 200px;
+}
+
+#objEsquerda {
+    max-width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#objEsquerda > a{
     color: black;
 }
