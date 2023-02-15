@@ -2,4 +2,24 @@
     width: 200px;
     height: 514px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#perfilImg > img {
+    margin-top: 10px;
+    height: 140px;
+    border: 2px solid #2e5f5c;
+    border-radius: 50%;
+}
+
+#perfilInfo {
+    font-size: 12px;
+    padding: 10px;
+    justify-content: center;
+}
+
+#insignias > img {
+    height: 80px;
 }
