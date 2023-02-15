@@ -1,3 +1,5 @@
+export let num = 0
+
 class Projeto {
 
     constructor(ti, te, im, li, tl, da) {
