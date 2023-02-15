@@ -7,7 +7,7 @@ function Header() {
             <div id="title">
                 <h1>Haku</h1>
             </div>
-            <div id="haku">
+            <div id="haku"> 
                 <img src="./src/images/haku.png" alt="haku" />
             </div>
             <ul>

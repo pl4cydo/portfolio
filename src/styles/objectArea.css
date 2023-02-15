@@ -12,4 +12,10 @@
     border: 1px solid black;
     width: 80%;
     height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: black;
 }
