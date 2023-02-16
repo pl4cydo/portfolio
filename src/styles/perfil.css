@@ -1,7 +1,10 @@
 #perfilBox{
+    margin: 5px;
     width: 200px;
-    height: 514px;
-    border: 1px solid black;
+    height: 524px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 6px;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
