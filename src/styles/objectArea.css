@@ -1,11 +1,11 @@
 #blocao {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #ObjectArea{
     width: 800px;
-    height: 514px;
+    height: 350px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -40,12 +40,12 @@
 }
 
 #TimeLine{
-    width: 200px;
-    height: 514px;
+    width: 800px;
+    height: 163px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     padding: 0;
     margin: 0;
@@ -53,19 +53,19 @@
 
 #objTM {
     margin-top: -20px;
-    width: 50px;
-    height: 550px;
+    width: 464px;
+    height: 50px;
     border: 1px solid black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content:space-between;
     align-items: center;
 }
 
 #point {
-    height: 10px;
-    width: 30px;
-    margin: 5px;
+    height: 30px;
+    width: 10px;
+    margin: 20px;
     border: 1px solid black;
     border-radius: 6px;
     background-color: azure;
@@ -73,8 +73,9 @@
 
 #objTM > img {
     margin-top: 0px;
-    margin-left: -3px;
+    margin-left: 213px;
     position: absolute;
     z-index: -1;
     height: 460px;
+    transform: rotate(270deg);
 }
