@@ -2,9 +2,6 @@ import '../styles/objectArea.css'
 import { useState } from 'react';
 import { arrPro, num } from '../model/Projeto';
 
-
-
-
 function ObjectArea() {
 
     const [object, setObject] = useState(arrPro[num]);
@@ -14,9 +11,9 @@ function ObjectArea() {
 
         <div id="blocao">
             <div id="ObjectArea">
-                <div id="tituloObj">
+                {/* <div id="tituloObj">
                     <h1>Projetos</h1>
-                </div>
+                </div> */}
                 <div id="obj">
                     <div id="objEsquerda">
                         <h2>{object.titulo}</h2>
@@ -33,7 +30,7 @@ function ObjectArea() {
                 <div id="objTM">
                     <img src="./src/images/bitmap.svg" alt="arrow" />
                     {arrPro.map((pro) =>
-                        <div id="point" onClick={() => setObject(arrPro[pro.timeLine])}></div>
+                        <div id="point" onClick={() =>  setObject(arrPro[pro.timeLine])}></div>
                     )}
                 </div>
             </div>
