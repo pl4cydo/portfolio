@@ -6,37 +6,41 @@
 #ObjectArea{
     background-color: #ffffff;
     width: 800px;
-    height: 358px;
+    height: 318px;
     margin: 5px;
     /* border: 1px solid black; */
     border-radius: 6px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 #obj {
+    background-color: azure;
     /* padding-top: 30px; */
     /* border: 1px solid black; */
     /* background-color: #d7ebfd; */
     border-radius: 6px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
     width: 90%;
     height: 80%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 #obj > img{
     /* width: 250px; */
     height: 200px;
+    margin-right: 20px;
 }
 
 #objEsquerda {
+    margin-left: 20px;
     max-width: 250px;
     padding-left: 10px;
     padding-right: 10px;
@@ -51,8 +55,7 @@
     margin-top: 5px;
     margin-left: 5px;
     width: 800px;
-    height: 143px;
-    border-radius: 6px;
+    height: 183px;
     border-radius: 6px;
     /* border: 1px solid black; */
     display: flex;
@@ -73,14 +76,31 @@
 
 #objctPreview {
     /* position: absolute;     */
-    height: 100px;
+    height: 140px;
     width: 200px;
-    margin-left: 20px;
-    border: 5px outset black;
+    margin-left: 25px;
+    /* border: 5px outset black; */
     /* border-radius: 50%; */
     background-color: azure;
     cursor: pointer;
     z-index: 0;
+    border-radius: 6px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#objctPreview > h4 {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#objctPreview > img {
+    height: 100px;
 }
 
 #arrowSlider {
@@ -89,6 +109,7 @@
     height: 70px;
     z-index: 1 ;
     margin-left: -30px;
+    cursor: pointer;
 }
 
 #arrowSlider2 {
@@ -98,6 +119,7 @@
     z-index: 1 ;
     margin-left: 720px;
     transform: rotate(180deg);
+    cursor: pointer;
 }
 /* 
 #objTM > img {

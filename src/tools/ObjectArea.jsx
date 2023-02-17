@@ -51,8 +51,9 @@ function ObjectArea() {
                 <img id='arrowSlider2' src="./src/images/arrowSlider.png" alt="" onClick={() => sliderRigth()}/>
                 <div style={{ 'margin-left': `${jorge}px` }} id="divid">
                     {arrPro.map((pro) =>
-                        <div id="objctPreview">
-
+                        <div id="objctPreview" onClick={() => setObject(arrPro[pro.timeLine])}>
+                            <h4>{pro.titulo}</h4>
+                            <img src={pro.imagem} alt="" />
                         </div>
                     )}
                 </div>
