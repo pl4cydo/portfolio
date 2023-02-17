@@ -14,7 +14,7 @@ class Projeto {
 }
 
 const pro1 = new Projeto(
-    "RPG",
+    "RPG: Final IFPE",
     "Projeto RPG - Supervisionado pelo professor de Lógica da programação Allan Lima do IFPE Igarassu - Apresentado na Demo Week 2022.1", 
     "./src/images/batalha.png", 
     "https://github.com/pl4cydo/IFPE-projeto-svelte--RPG", 

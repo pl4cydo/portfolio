@@ -41,7 +41,9 @@ function ObjectArea() {
                         <p>{object.date}</p>
                         <a href={object.link} target="_blank">link</a>
                     </div>
-                    <img src={object.imagem} alt={object.titulo} />
+                    <div id="objAreaImg">
+                        <img src={object.imagem} alt={object.titulo} />
+                    </div>
                 </div>
             </div>
 
