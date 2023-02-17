@@ -2,6 +2,7 @@ import '../styles/objectArea.css'
 import { useState } from 'react';
 import { arrPro, num } from '../model/Projeto';
 
+let move = 3;
 
 function ObjectArea() {
 
@@ -9,11 +10,20 @@ function ObjectArea() {
     const [jorge, setJorge] = useState(0)
 
     function sliderRigth() {
-        setJorge(jorge - 200)
+        // console.log(arrPro.length)
+        if(move <= (arrPro.length - 1)){
+            move++
+            setJorge(jorge - 200)
+            console.log(move)
+        }
 
     }
     function sliderLeft() {
-        setJorge(jorge + 200)
+        if(move > 3){
+            move--
+            setJorge(jorge + 200)
+            console.log(move)
+        }
     }
 
 
