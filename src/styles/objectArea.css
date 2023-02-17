@@ -43,6 +43,7 @@
 }
 
 #objAreaImg > img{
+    border-radius: 6px;
     /* width: 250px; */
     height: 200px;
     margin-right: 20px;
@@ -50,6 +51,7 @@
 
 #objEsquerda {
     margin-left: 20px;
+    margin-bottom: 20px;
     max-width: 250px;
     padding-left: 10px;
     padding-right: 10px;

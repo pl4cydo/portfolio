@@ -24,7 +24,7 @@ const pro1 = new Projeto(
 const pro2 = new Projeto(
     "JAVA-CRUD-JFRAME",
     "Projeto RPG - Supervisionado pelo professor de Lógica da programação Allan Lima do IFPE Igarassu - Apresentado na Demo Week 2022.1", 
-    "./src/images/java2.png", 
+    "./src/images/Java.png", 
     "https://github.com/pl4cydo/JAVA-CRUD-JFRAME", 
     1, 
     "05/02/2023"

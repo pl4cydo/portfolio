@@ -39,7 +39,7 @@ function ObjectArea() {
                         <h2>{object.titulo}</h2>
                         <p>{object.texto}</p>
                         <p>{object.date}</p>
-                        <a href={object.link} target="_blank">link</a>
+                        <a href={object.link} target="_blank"><img style={{height: '30px'}} src="./src/images/github.png" alt="" /></a>
                     </div>
                     <div id="objAreaImg">
                         <img src={object.imagem} alt={object.titulo} />
