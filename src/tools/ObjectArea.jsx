@@ -26,13 +26,12 @@ function ObjectArea() {
             </div>
 
             <div id="TimeLine">
-                <h2>Time Line</h2>
-                <div id="objTM">
-                    <img src="./src/images/bitmap.svg" alt="arrow" />
+                {/* <h2>Time Line</h2> */}
                     {arrPro.map((pro) =>
-                        <div id="point" onClick={() =>  setObject(arrPro[pro.timeLine])}></div>
+                        <div id="objctPreview">
+
+                        </div>
                     )}
-                </div>
             </div>
 
         </div>
