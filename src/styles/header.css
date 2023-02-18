@@ -9,6 +9,7 @@ header {
     flex-direction: row;
     align-items: center;
     width: 100%;
+    font-family: 'Orbitron', sans-serif;
 }
 
 #title {
@@ -33,7 +34,7 @@ header {
 li {
     padding-right: 5px;
     display: inline-block;
-    margin: 5px;
+    margin-right: 5px;
 }
 
 a {

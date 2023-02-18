@@ -1,31 +1,41 @@
-  body {
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-      /*cor de fundo branca*/
-      color: #000000;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@200;300;400;500;600;800;900&display=swap');
 
-  main {
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 0;
-      height: 100vh;
-      width: 100vw;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    /*cor de fundo branca*/
+    color: #000000;
+}
 
-  #mainBox {
-      text-align: justify;
-      max-height: 100%;
-      max-width: 100%;
-      display: flex;
-      flex-direction: row;
-      margin-top: 3px;
-      margin-bottom: 3.5px;
-      justify-content: center;
-      /* border: 1px solid black; */
-  }
+main {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: 'Josefin Sans', sans-serif; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Orbitron', sans-serif; */
+    font-size: clamp(
+        0.2em, 0.9em, 1em
+    ) ;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 12pt;
+}
+
+#mainBox {
+    text-align: justify;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+    margin-bottom: 3.5px;
+    justify-content: center;
+    /* border: 1px solid black; */
+}

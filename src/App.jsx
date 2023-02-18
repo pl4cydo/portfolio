@@ -26,7 +26,7 @@ function App() {
             <Perfil />
             <ObjectArea />
         </div>
-        <Footer1 />
+        {/* <Footer1 /> */}
     </main>
   )
 }
