@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import { arrPro, num } from '../model/Projeto';
 
 let move = 3;
-let count = 0;
 
 function ObjectArea() {
     const [object, setObject] = useState(arrPro[num]);
@@ -18,7 +17,6 @@ function ObjectArea() {
         if (move <= (arrPro.length - 1)) {
             move++
             setJorge(jorge - 200)
-            console.log(move)
         }
 
     }
@@ -26,7 +24,6 @@ function ObjectArea() {
         if (move > 3) {
             move--
             setJorge(jorge + 200)
-            console.log(move)
         }
     }
 

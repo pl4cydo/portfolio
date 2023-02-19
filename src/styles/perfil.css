@@ -20,6 +20,10 @@
     border-radius: 50%;
 }
 
+#perfilLink {
+    color: #006297;
+}
+
 #perfilInfo {
     font-size: 12px;
     padding: 0px;
