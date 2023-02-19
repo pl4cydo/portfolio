@@ -13,65 +13,68 @@ class Projeto {
 
 }
 
-const pro1 = new Projeto(
-    "RPG: Final IFPE",
-    "Projeto RPG - Supervisionado pelo professor de Lógica da programação Allan Lima do IFPE Igarassu - Apresentado na Demo Week 2022.1", 
-    [
-        "./src/images/batalha1.png",
-        "./src/images/batalha2.png",
-        "./src/images/batalha3.png"
-    ], 
-    "https://github.com/pl4cydo/IFPE-projeto-svelte--RPG", 
-    0, 
-    "15/07/2022"
-);
-const pro2 = new Projeto(
-    "JAVA JFRAME",
-    "Projeto RPG - Supervisionado pelo professor de Lógica da programação Allan Lima do IFPE Igarassu - Apresentado na Demo Week 2022.1", 
-    [
-        "./src/images/Java.png",
-        "./src/images/Java2.png",
-        "./src/images/Java3.png"
-    ], 
-    "https://github.com/pl4cydo/JAVA-CRUD-JFRAME", 
-    1, 
-    "05/02/2023"
-);
-const pro3 = new Projeto(
-    "Dustry",
-    "Projeto interdisciplinar entre o curso de Informática para Internet e Logística do Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco - Campus Igarassu.", 
-    [
-        "./src/images/dustry.png",
-        "./src/images/dustry2.png",
-        "./src/images/dustry3.png"
-    ], 
-    "https://github.com/pl4cydo/IFPE-IPI-LOGISTICA", 
-    2, 
-    "03/09/2022"
-);
-const pro4 = new Projeto(
-    "Web1-CRUD",
-    "Projeto de conclusão da cadeira de Desenvolvimento Web 1 no Curso Informática para Internet no Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco.", 
-    [
-        "./src/images/web1.png",
-        "./src/images/web2.png",
-        "./src/images/web3.png"
-    ], 
-    "https://github.com/pl4cydo/CRUD-SVELTE-PHP-MYSQL", 
-    3, 
-    "04/02/2023"
-);
-const pro5 = new Projeto(
-    "Portifolio",
-    "Projeto de criação de um portifolio dinamico onde objetos que compoem projetos possam ser inseridos e a pagna ser reajusta com a inserção.", 
-    "./src/images/web1.png", 
-    "https://github.com/pl4cydo/portifolio", 
-    4, 
-    "14/02/2023"
-);
-
-
-export const arrPro = [pro1, pro2, pro3, pro4, pro5];
+export const arrPro = [
+    new Projeto(
+        "RPG: Final IFPE",
+        "Projeto RPG - Supervisionado pelo professor de Lógica da programação Allan Lima do IFPE Igarassu - Apresentado na Demo Week 2022.1",
+        [
+            "./src/images/batalha1.png",
+            "./src/images/batalha2.png",
+            "./src/images/batalha3.png"
+        ],
+        "https://github.com/pl4cydo/IFPE-projeto-svelte--RPG",
+        0,
+        "15/07/2022"
+    ),
+    new Projeto(
+        "JAVA JFRAME",
+        "Projeto RPG - Supervisionado pelo professor de Lógica da programação Allan Lima do IFPE Igarassu - Apresentado na Demo Week 2022.1",
+        [
+            "./src/images/Java.png",
+            "./src/images/Java2.png",
+            "./src/images/Java3.png"
+        ],
+        "https://github.com/pl4cydo/JAVA-CRUD-JFRAME",
+        1,
+        "05/02/2023"
+    ), 
+    new Projeto(
+        "Dustry",
+        "Projeto interdisciplinar entre o curso de Informática para Internet e Logística do Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco - Campus Igarassu.",
+        [
+            "./src/images/dustry.png",
+            "./src/images/dustry2.png",
+            "./src/images/dustry3.png"
+        ],
+        "https://github.com/pl4cydo/IFPE-IPI-LOGISTICA",
+        2,
+        "03/09/2022"
+    ), 
+    new Projeto(
+        "Web1-CRUD",
+        "Projeto de conclusão da cadeira de Desenvolvimento Web 1 no Curso Informática para Internet no Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco.",
+        [
+            "./src/images/web2.png",
+            "./src/images/web1.png",
+            "./src/images/web3.png"
+        ],
+        "https://github.com/pl4cydo/CRUD-SVELTE-PHP-MYSQL",
+        3,
+        "04/02/2023"
+    ), 
+    new Projeto(
+        "Portfólio",
+        "Projeto de criação de um portifolio dinamico onde objetos que compoem projetos possam ser inseridos e a pagna ser reajusta com a inserção.",
+        [
+            "./src/images/portfolio1.png",
+            "./src/images/portfolio2.png",
+            "./src/images/portfolio1.png"        
+        ],
+        "https://github.com/pl4cydo/portifolio",
+        4,
+        "14/02/2023"
+    )
+];
 
 
 
