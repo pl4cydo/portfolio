@@ -3,9 +3,10 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #d0dce2;
     /*cor de fundo branca*/
     color: #000000;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.17);
 }
 
 main {

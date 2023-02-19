@@ -1,5 +1,5 @@
 header {
-    background-color: #50779c;
+    background-color: #003049;
     /*cor de fundo azul escuro*/
     color: #FFFFFF;
     /*cor do texto branca*/
@@ -42,6 +42,6 @@ a {
 }
 
 a:hover {
-    color: #00C957;
+    color: #ff595e;
     transition: 0.3s all;
 }

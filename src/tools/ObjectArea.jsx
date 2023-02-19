@@ -10,6 +10,7 @@ function ObjectArea() {
     const [jorge, setJorge] = useState(0)
     const [slideTela, setSlideTela] = useState(0)
     let slideInterval;
+    let slideTelaCSS;
 
 
     function sliderRigth() {
@@ -47,6 +48,7 @@ function ObjectArea() {
         return () => clearInterval(slideInterval);
     }, [slideTela])
 
+
     // useEffect(() => {
     //     auto();
     // }, [object])
@@ -70,7 +72,7 @@ function ObjectArea() {
                     </div>
                     <div id="objAreaImg">
                         <div id="slide">
-                            <img src={object.imagem[slideTela]} alt="" />
+                            <img style={slideTelaCSS} src={object.imagem[slideTela]} alt="" />
                         </div>
                     </div>
                 </div>
@@ -85,7 +87,9 @@ function ObjectArea() {
                         <div id="objctPreview" onClick={() => {
                             setObject(arrPro[pro.timeLine])
                         }}>
-                            <h4>{pro.titulo}</h4>
+                            <div id="previewTitulo">
+                                <h4>{pro.titulo}</h4>
+                            </div>
                             <img src={pro.imagem[0]} alt="" />
                         </div>
                     )}
