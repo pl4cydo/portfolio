@@ -60,7 +60,14 @@ main {
         align-items: center;
         justify-content: center;
         max-width: none;
-        width: 800px;
+        width: 290px;
+        max-height: none;
+        height: auto;
+    }
+
+    main {
+        max-width: none;
+        width: 485px;
     }
 
 }

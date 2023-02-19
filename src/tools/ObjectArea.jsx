@@ -3,9 +3,9 @@ import { useState, useEffect } from 'react';
 import { arrPro, num } from '../model/Projeto';
 
 
-let move = window.screen.width > 400 ? 3 : 1;
-let limit = window.screen.width > 400 ? 3 : 1;
-let moviment = window.screen.width > 400 ? 200 : 220;
+let move = window.screen.width > 900 ? 3 : 1;
+let limit = window.screen.width > 900 ? 3 : 1;
+let moviment = window.screen.width > 900 ? 200 : 220;
 
 function ObjectArea() {
     const [object, setObject] = useState(arrPro[num]);
