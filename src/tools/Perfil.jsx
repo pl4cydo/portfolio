@@ -8,7 +8,7 @@ function Perfil() {
             </div>
             <div id="perfilInfo">
                 <h1>Plácydo Lima</h1>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur. lorem lorem lorem lorem lorem.</p>
+                <p>Bom dia, boa tarde e boa noite! Este é meu portfólio, tenho 26 anos e atualmente estudo Sistemas para Internet no Institudo Federal de Educação, Ciências e Tecnologias de Pernambuco. O objetivo principal desse projeto é mostrar minha evolução aprendendo o desenvolvimento web, para saber mais vá ao linkedin ou siga para os projetos no github. A baixo estão algumas tecnologias que ultilizei nos projetos.</p>
             </div>
             <div id="insignias">
                 <img src="./src/images/badge.png" alt="" />
