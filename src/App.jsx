@@ -8,6 +8,7 @@ import ObjectArea from './tools/ObjectArea'
 function App() {
   
   console.log(window.screen.width)
+  alert(window.screen.width)
 
   return (
     <main>
