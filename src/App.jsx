@@ -1,23 +1,13 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import Header from './tools/header'
 import Perfil from './tools/Perfil'
 import ObjectArea from './tools/ObjectArea'
-import Footer1 from './tools/Footer'
+// import Footer1 from './tools/Footer'
 
-class Projeto {
-
-  constructor(ti, te, im, li, tl, da) {
-      this.titulo = ti;
-      this.texto = te;
-      this.imagem = im;
-      this.link = li;
-      this.timeLine = tl;
-      this.date = da;
-  }
-
-}
 
 function App() {
+  
+  console.log(window.screen.width)
 
   return (
     <main>

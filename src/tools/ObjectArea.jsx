@@ -2,7 +2,10 @@ import '../styles/objectArea.css'
 import { useState, useEffect } from 'react';
 import { arrPro, num } from '../model/Projeto';
 
-let move = 3;
+
+let move = window.screen.width > 400 ? 3 : 1;
+let limit = window.screen.width > 400 ? 3 : 1;
+let moviment = window.screen.width > 400 ? 200 : 220;
 
 function ObjectArea() {
     const [object, setObject] = useState(arrPro[num]);
@@ -16,14 +19,14 @@ function ObjectArea() {
         // console.log(arrPro.length)
         if (move <= (arrPro.length - 1)) {
             move++
-            setJorge(jorge - 200)
+            setJorge(jorge - moviment)
         }
 
     }
     function sliderLeft() {
-        if (move > 3) {
+        if (move > limit) {
             move--
-            setJorge(jorge + 200)
+            setJorge(jorge + moviment)
         }
     }
 

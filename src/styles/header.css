@@ -8,6 +8,7 @@ header {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    /* width: 1270px; */
     width: 100%;
     font-family: 'Orbitron', sans-serif;
 }
@@ -44,4 +45,20 @@ a {
 a:hover {
     color: #ff595e;
     transition: 0.3s all;
+}
+
+@media (max-width: 900px) {
+    header {
+        height: 30px;
+    }
+
+    #title>h1 {
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+    
+    a {
+        color: #FFFFFF;
+        font-size: 10px;
+    }
 }
