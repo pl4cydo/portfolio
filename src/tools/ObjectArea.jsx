@@ -80,13 +80,12 @@ function ObjectArea() {
 
             <div id="TimeLine">
                 {/* <h2>Time Line</h2> */}
+                <p id='timeLInform'>*Arraste e selecione outros projetos para mais informações.</p>
                 <img id='arrowSlider' src="./src/images/arrowSlider.png" alt="" onClick={() => sliderLeft()} />
                 <img id='arrowSlider2' src="./src/images/arrowSlider.png" alt="" onClick={() => sliderRigth()} />
                 <div style={{ 'margin-left': `${jorge}px` }} id="divid">
                     {arrPro.map((pro) =>
-                        <div id="objctPreview" onClick={() => {
-                            setObject(arrPro[pro.timeLine])
-                        }}>
+                        <div id="objctPreview" onClick={() => {setObject(arrPro[pro.timeLine])}}>
                             <div id="previewTitulo">
                                 <h4>{pro.titulo}</h4>
                             </div>

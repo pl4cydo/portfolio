@@ -160,6 +160,7 @@
     border-radius: 6px;
     /* border: 1px solid black; */
     display: flex;
+    /* flex-direction: column; */
     justify-content: flex-start;
     overflow: hidden;
     align-items: center;
@@ -167,6 +168,13 @@
     /* padding: 0; */
     /* margin: 0; */
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#timeLInform {
+    margin-top: -150px;
+    margin-left: 30px;
+    position: absolute;
+    font-size: 12px;
 }
 
 #divid {
@@ -180,6 +188,7 @@
     color: #00466b;
     height: 140px;
     width: 200px;
+    margin-top: 20px;
     margin-left: 25px;
     /* border: 5px outset black; */
     /* border-radius: 50%; */
@@ -227,6 +236,7 @@
     z-index: 1;
     margin-left: 0;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 #arrowSlider2 {
@@ -237,6 +247,7 @@
     margin-left: 761px;
     transform: rotate(180deg);
     cursor: pointer;
+    margin-top: 30px;
 }
 
 /* 
@@ -397,9 +408,20 @@
         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     }
 
-    #arrowSlider {
+    #timeLInform {
+        margin-top: -140px;
+        margin-left: 5px;
         position: absolute;
-        margin-top: 0;
+        font-size: 9px;
+        overflow-wrap: break-word; 
+        word-wrap: break-word; 
+        word-break: break-word;
+    }
+
+    #arrowSlider {
+        font-size: 1px;
+        position: absolute;
+        margin-top: 15px;
         height: 70px;
         z-index: 1;
         margin-left: -3px;
@@ -408,7 +430,7 @@
     
     #arrowSlider2 {
         position: absolute;
-        margin-top: 0;
+        margin-top: 15px;
         height: 70px;
         z-index: 1;
         margin-left: 250px;
