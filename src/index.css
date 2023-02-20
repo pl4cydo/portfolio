@@ -18,6 +18,8 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
@@ -67,7 +69,7 @@ main {
 
     main {
         max-width: none;
-        width: 485px;
+        width: auto;
     }
 
 }
